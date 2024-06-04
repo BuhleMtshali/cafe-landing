@@ -17,7 +17,7 @@ body {
   cursor: pointer;
 }
 .first-section-home {
-  background-image: url("images/new-home-bg.jpg");
+  background-image: url("images/front-bg.jpg");
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -142,18 +142,16 @@ body {
   border-radius: 7px;
   transition: all 0.3s ease-in-out;
 }
-.location-home:hover {
-  background-color: var(--primary-text-color);
-  color: white;
-}
 
-.location-home a {
+.location-home {
   font-size: 14px;
   font-weight: 500;
   font-family: "Libre Baskerville", serif;
+  color: var(--primary-text-color);
+  cursor: grabbing;
 }
 
-.location-home a:hover {
+.location-home:hover {
   color: white;
   background-color: var(--primary-text-color);
 }
