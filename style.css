@@ -69,6 +69,7 @@ body {
   height: 100vh;
   scroll-snap-align: start;
   padding-top: 60px;
+  text-align: center;
 }
 .welcome-text {
   color: var(--primary-text-color);
