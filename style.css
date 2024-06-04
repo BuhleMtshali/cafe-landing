@@ -1,3 +1,8 @@
+:root {
+  --primary-text-color: #947848;
+  --footer-background: #f5f5f1;
+}
+
 body {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
