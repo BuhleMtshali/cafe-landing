@@ -11,4 +11,18 @@ body {
   height: 100vh;
   scroll-behavior: smooth;
   margin: 0;
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+}
+.first-section-home {
+  background-image: url("images/new-home-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+.home-nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
