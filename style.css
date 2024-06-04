@@ -95,7 +95,7 @@ body {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .column-heading {
   color: var(--primary-text-color);
@@ -134,4 +134,26 @@ body {
 .icons-home:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+.location-home {
+  padding: 10px 20px;
+  border: 2px solid var(--primary-text-color);
+  background-color: white;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+.location-home:hover {
+  background-color: var(--primary-text-color);
+  color: white;
+}
+
+.location-home a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Libre Baskerville", serif;
+}
+
+.location-home a:hover {
+  color: white;
+  background-color: var(--primary-text-color);
 }
