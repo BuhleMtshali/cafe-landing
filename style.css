@@ -13,6 +13,7 @@ body {
   margin: 0;
   font-family: "Libre Baskerville", serif;
   margin: 0;
+  cursor: pointer;
 }
 .first-section-home {
   background-image: url("images/new-home-bg.jpg");
@@ -22,7 +23,32 @@ body {
   background-position: center;
 }
 .home-nav {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo-name {
+  font-size: 40px;
+  color: var(--primary-text-color);
+  margin-top: 25px;
+  font-weight: 700;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+
+  margin-top: 30px;
+}
+.home-li {
+  font-size: 18px;
+  padding: 10px;
+  color: var(--primary-text-color);
+  font-weight: 600;
+}
+.home-links {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  cursor: grab;
 }
