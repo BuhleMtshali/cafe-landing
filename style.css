@@ -299,5 +299,43 @@ li {
 }
 .menu-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pie-text {
+  background-image: url(menu-pics/pie-pic.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  align-content: center;
+  color: var(--primary-text-color);
+  font-size: 40px;
+  font-weight: 700;
+}
+.price-1 {
+  margin-bottom: 70px;
+  color: var(--primary-text-color);
+  font-size: 30px;
+}
+.price-2 {
+  margin-bottom: 100px;
+  color: var(--primary-text-color);
+  font-size: 30px;
+  margin-top: 80px;
+}
+.price-3 {
+  color: var(--primary-text-color);
+  font-size: 30px;
+}
+.col-sub {
+  margin-bottom: 0;
+  color: var(--primary-text-color);
+  font-size: 30px;
+}
+.col-text {
+  color: var(--paragraph-color);
+  font-size: 14px;
 }
