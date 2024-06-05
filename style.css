@@ -59,6 +59,14 @@ body {
   font-weight: 600;
   line-height: 44px;
 }
+.home-welcome {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 70px;
+  color: white;
+  font-weight: 700;
+  font-family: "Parisienne", cursive;
+}
 .home-links {
   color: var(--primary-text-color);
   text-decoration: none;
