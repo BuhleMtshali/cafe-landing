@@ -308,6 +308,19 @@ li {
   width: 100%;
   background-position: center;
   width: 350px;
+  height: 320px;
+  text-align: center;
+  align-content: center;
+  color: var(--primary-text-color);
+  font-size: 40px;
+  font-weight: 700;
+}
+.cake-text {
+  background-image: url(menu-pics/cake.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  width: 350px;
   height: 350px;
   text-align: center;
   align-content: center;
@@ -338,4 +351,11 @@ li {
 .col-text {
   color: var(--paragraph-color);
   font-size: 14px;
+}
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: var(--paragraph-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
