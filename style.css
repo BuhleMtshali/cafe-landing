@@ -199,12 +199,14 @@ body {
   width: 100%;
   height: 100vh;
   scroll-snap-align: start;
-  padding-top: 20px;
+
   text-align: center;
 }
 .customer-review {
   color: var(--primary-text-color);
   font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .quote-text {
   color: var(--paragraph-color);
@@ -223,4 +225,15 @@ body {
   font-family: "Parisienne", cursive;
   font-size: 30px;
   font-weight: 600;
+}
+.spend-time {
+  background-image: url(images/new-home-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+
+  padding-top: 60px;
+  padding-left: 53px;
+  padding-right: 53px;
+  padding-bottom: 40px;
 }
