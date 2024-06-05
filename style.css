@@ -227,7 +227,8 @@ body {
   font-weight: 600;
 }
 .spend-time {
-  background-image: url(images/new-home-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(images/new-home-bg.jpg);
   background-size: cover;
   width: 100%;
   background-position: center;
@@ -236,4 +237,51 @@ body {
   padding-left: 53px;
   padding-right: 53px;
   padding-bottom: 40px;
+}
+.spend-text {
+  font-size: 40px;
+  color: white;
+}
+footer {
+  background-color: var(--footer-background);
+  padding: 40px;
+}
+.footer-head {
+  font-size: 20px;
+  color: var(--primary-text-color);
+}
+.footer-list-container {
+  display: flex;
+  color: var(--paragraph-color);
+}
+ul {
+  list-style: square;
+  padding: 5px;
+  margin: 10px;
+}
+li {
+  font-size: 13px;
+  padding: 5px;
+}
+.footer-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-text-container {
+  display: flex;
+  justify-content: right;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  padding: 20px;
+}
+.foot-text {
+  margin-top: 8px;
+  color: var(--paragraph-color);
+  font-size: 12px;
 }
