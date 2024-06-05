@@ -297,7 +297,3 @@ li {
   font-family: "Libre Baskerville", serif;
   color: var(--primary-text-color);
 }
-.menu-container {
-  display: flex;
-  justify-content: space-evenly;
-}
