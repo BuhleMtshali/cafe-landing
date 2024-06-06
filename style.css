@@ -394,7 +394,7 @@ li {
 }
 .image-right-contain img {
   width: 250px;
-  height: 200px;
+  height: 230px;
   object-fit: cover;
   object-position: center;
   padding: 10px;
