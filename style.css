@@ -419,4 +419,22 @@ li {
 }
 .right-location {
   margin-right: 90px;
+  margin-bottom: 20px;
+}
+.location-heading {
+  color: var(--primary-text-color);
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.right-lo {
+  margin-top: 5px;
+  color: var(--primary-text-color);
+}
+.text {
+  border-right: 2px solid var(--primary-text-color);
+}
+.info-text {
+  color: var(--paragraph-color);
+  font-size: 14px;
+  padding: 10px;
 }
