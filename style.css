@@ -404,3 +404,19 @@ li {
 .image-right-contain img:hover {
   opacity: 0.5;
 }
+.location-mini {
+  display: flex;
+}
+.right-lo {
+  padding: 10px;
+}
+.locatio-container {
+  display: flex;
+  justify-content: space-between;
+}
+.right-locatio {
+  margin-left: 40px;
+}
+.right-location {
+  margin-right: 90px;
+}
