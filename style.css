@@ -237,7 +237,7 @@ body {
 }
 .spend-time {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(images/new-home-bg.jpg);
+    url(images/front-bg.jpg);
   background-size: cover;
   width: 100%;
   background-position: center;
