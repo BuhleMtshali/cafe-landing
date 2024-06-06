@@ -390,10 +390,10 @@ li {
 }
 .right-container {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .image-right-contain img {
-  width: 200px;
+  width: 250px;
   height: 200px;
   object-fit: cover;
   object-position: center;
